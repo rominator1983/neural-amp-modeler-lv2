@@ -15,7 +15,7 @@
 
 <@NAM_LV2_ID@#model>
         a lv2:Parameter;
-	mod:fileTypes "nam,nammodel";
+	mod:fileTypes "nammodel,nam";
         rdfs:label "Neural Model";
         rdfs:range atom:Path.
 
