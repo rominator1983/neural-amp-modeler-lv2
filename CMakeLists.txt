@@ -32,12 +32,15 @@ add_subdirectory(src)
 
 
 # create neural_amp_modeler.lv2
-add_custom_target(copy_binaries ALL
-	${CMAKE_COMMAND} -E copy "$<TARGET_FILE:neural_amp_modeler>" neural_amp_modeler.lv2/
-	DEPENDS neural_amp_modeler
-)
+#add_custom_target(copy_binaries ALL
+#	${CMAKE_COMMAND} -E copy "$<TARGET_FILE:neural_amp_modeler>" neural_amp_modeler.lv2/
+#	DEPENDS neural_amp_modeler
+#)
+
+execute_process(COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/modgui/ "neural_amp_modeler.lv2/modgui")
 
 configure_file(resources/manifest.ttl.in neural_amp_modeler.lv2/manifest.ttl)
+configure_file(resources/modgui.ttl.in neural_amp_modeler.lv2/modgui.ttl)
 configure_file(resources/neural_amp_modeler.ttl.in neural_amp_modeler.lv2/neural_amp_modeler.ttl)
 
 install (DIRECTORY ${CMAKE_BINARY_DIR}/neural_amp_modeler.lv2
