@@ -1,11 +1,11 @@
-/* abGate */
+/* nam */
 
 @import url(/fonts/nexa/stylesheet.css);
 @import url(/fonts/questrial/stylesheet.css);
 
 /* = CONTAINER
 ================================================ */
-.mod-pedal-abgate {
+.mod-pedal-nam {
     background-position:center center;
     background-repeat:no-repeat;
     background-size:640px 200px;
@@ -18,7 +18,7 @@
 
 /* = BYPASS
 ================================================ */
-.mod-pedal-abgate .mod-footswitch {
+.mod-pedal-nam .mod-footswitch {
     background-image:url(/resources/bypass_on.png{{{ns}}});
     background-position:center center;
     background-repeat:no-repeat;
@@ -30,13 +30,13 @@
     cursor:pointer;
     position:absolute;
 }
-.mod-pedal-abgate .mod-footswitch.on {
+.mod-pedal-nam .mod-footswitch.on {
     background-image:url(/resources/bypass_off.png{{{ns}}});
 }
 
 /* = KNOBS
 ================================================ */
-.mod-pedal-abgate .mod-control-group {
+.mod-pedal-nam .mod-control-group {
     z-index:30;
     position:relative;
     top:72px;
@@ -46,13 +46,13 @@
     display:inline;
 }
 
-.mod-pedal-abgate .mod-control-group .mod-knob {
+.mod-pedal-nam .mod-control-group .mod-knob {
     overflow:hidden;
     position:relative;
     display:inline-block;
 }
 
-.mod-pedal-abgate .mod-control-group .mod-knob .mod-knob-image {
+.mod-pedal-nam .mod-control-group .mod-knob .mod-knob-image {
     background-image:url(/resources/knob.png{{{ns}}});
     background-position:left center;
     background-repeat:no-repeat;
@@ -62,18 +62,18 @@
     cursor:pointer;
 }
 
-.mod-pedal-abgate .mod-control-group .mod-knob:nth-child(2) {
+.mod-pedal-nam .mod-control-group .mod-knob:nth-child(2) {
     left: -2px;
 }
 
-.mod-pedal-abgate .mod-control-group .mod-knob:nth-child(3) {
+.mod-pedal-nam .mod-control-group .mod-knob:nth-child(3) {
     left: -4px;
 }
 
-.mod-pedal-abgate .mod-control-group .mod-knob:nth-child(4) {
+.mod-pedal-nam .mod-control-group .mod-knob:nth-child(4) {
     left: -6px;
 }
 
-.mod-pedal-abgate .mod-control-group .mod-knob:nth-child(5) {
+.mod-pedal-nam .mod-control-group .mod-knob:nth-child(5) {
     left: -10px;
 }
