@@ -8,10 +8,11 @@
 .mod-pedal-nam {
     background-position:center center;
     background-repeat:no-repeat;
-    background-size:640px 200px;
+    /* background image is 1124 × 654*/
+    background-size:562px 327px;
     background-image:url(/resources/background.png{{{ns}}});
-    width:640px;
-    height:200px;
+    width:562px;
+    height:327px;
     position:absolute;
     border-radius:0px;
 }
@@ -39,17 +40,37 @@
 .mod-pedal-nam .mod-control-group {
     z-index:30;
     position:relative;
-    top:72px;
-    left:18px;
     margin:0px;
     padding:0px;
     display:inline;
+}
+
+.mod-pedal-nam .group1 {
+    top:87px;
+    left:22px;
+}
+.mod-pedal-nam .group2 {
+    top:87px;
+    left:22px;
+}
+
+.mod-pedal-nam .mod-control-group .mod-knob .mod-knob-title {
+    text-align: center;
+    color:white;
 }
 
 .mod-pedal-nam .mod-control-group .mod-knob {
     overflow:hidden;
     position:relative;
     display:inline-block;
+}
+
+.mod-pedal-nam .mod-control-group .mod-knob:first-of-type {
+    margin-left: 0px;
+}
+
+.mod-pedal-nam .mod-control-group .mod-knob {
+    margin-left: 315px;
 }
 
 .mod-pedal-nam .mod-control-group .mod-knob .mod-knob-image {
@@ -76,4 +97,12 @@
 
 .mod-pedal-nam .mod-control-group .mod-knob:nth-child(5) {
     left: -10px;
+}
+
+.mod-pedal-nam .mod-enumerated {
+    position: relative;
+    top: 77px;
+    left: 65px;
+    cursor: pointer;
+    color: white;
 }
