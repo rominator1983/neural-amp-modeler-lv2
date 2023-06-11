@@ -50,8 +50,8 @@
     left:22px;
 }
 .mod-pedal-nam .group2 {
-    top:87px;
-    left:22px;
+    top:163px;
+    left:78px;
 }
 
 .mod-pedal-nam .mod-control-group .mod-knob .mod-knob-title {
@@ -101,8 +101,26 @@
 
 .mod-pedal-nam .mod-enumerated {
     position: relative;
-    top: 77px;
-    left: 65px;
+    font-weight: bold;
     cursor: pointer;
     color: white;
+}
+
+.mod-pedal-nam .mod-enumerated .mod-enumerated-selected {
+    padding-left: 5px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* THE LIST OF OPTIONS */
+.mod-pedal-nam .mod-enumerated .mod-enumerated-list {
+    background: black;
+    /* display: none; */
+    height: 219px;
+    overflow: auto;
+    position: relative;
+    position: absolute;
+    padding:5px;
+    width: 403px;
+    z-index: 3;
 }
