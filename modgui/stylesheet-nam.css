@@ -8,13 +8,13 @@
 .mod-pedal-nam {
     background-position:center center;
     background-repeat:no-repeat;
-    /* background image is 1124 × 543*/
-    background-size:562px 271px;
+    /* background image is 1121 × 536*/
+    background-size:560px 268px;
     background-image:url(/resources/background.png{{{ns}}});
-    width:562px;
-    height:271px;
+    width:560px;
+    height:268px;
     position:absolute;
-    border-radius:0px;
+    border-radius:40px;
 }
 
 /* = BYPASS
